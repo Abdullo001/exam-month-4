@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <main>
+
+
+        <div class="container">
+            <div class="box">
+                <ul class="users-list">
+
+                </ul>
+
+                <ul class="users-posts">
+
+
+                </ul>
+
+                <ul class="users-comments">
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <template class="js-user-template">
+    <li class="user">
+        <span class="user__id">01</span>
+        <h3 class="user__fullname">adad</h3>
+        <span class="user__name">name</span>
+        <a class="user__web-site" target="_blank">Web site</a>
+        <div class="company">
+            
+            <h4 class="company__name"></h4>
+            
+            <span class="company__mission"></span>
+            <span class="company__bs"></span>
+            
+        </div>
+        <address class="user__adress"><span class="user__adress-inner"></span></address>
+        <a href="" class="user__adress-link" target="_blank">Location</a>
+       
+        <a href="" class="user__phone"></a>
+        <a class="user__email">link</a>
+
+    </li>
+    </template>
+
+    <template class="js-user-posts">
+        <li class="post">
+            <h3 class="post__title"></h3>
+
+            <p class="post__body"></p>
+        </li>
+    </template>
+
+    <template class="js-user-comments">
+        <li class="comment">
+            <h3 class="comment__title"></h3>
+
+            <a  class="comment__email"></a>
+
+            <p class="comment__body">
+
+            </p>
+        </li>
+    </template>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
